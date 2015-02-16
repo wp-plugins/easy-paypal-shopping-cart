@@ -9,7 +9,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Convert your website to a eCommerce website with a shopping cart and start selling your products in just a few minutes. No Coding Required.
+Convert your website to a eCommerce website with a shopping cart and start selling your products in just a few minutes. No Coding Required. Official PayPal Partner.
 
 == Description ==
 = Overview =
@@ -21,6 +21,8 @@ Convert your website to a eCommerce website with a shopping cart and start selli
 *   Easy PayPal Button works with any WordPress theme.
 
 *	The shopping cart resides on PayPal, so you don't have to worry about complex settings. Just place Add to Cart and View cart buttons and your done.
+
+*   Official PayPal Partner.
 
 
 = Easy PayPal Shopping Cart Features =
@@ -51,7 +53,8 @@ Convert your website to a eCommerce website with a shopping cart and start selli
 > [Get Easy PayPal Shopping Cart Pro >>](https://wpplugin.org/easy-paypal-shopping-cart/)
 
 
-Trademarks held by their respective owners. This plugin is not affiliated wtih PayPal.
+WPPlugin is an Official PayPal Partner. Trademarks held by their respective owners. This plugin is not affiliated wtih PayPal.
+
 
 == Installation ==
 
