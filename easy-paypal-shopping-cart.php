@@ -491,7 +491,7 @@ echo "If the customer goes to PayPal and successfully pays, where are they redir
 <br /><br /><br />
 
 
-Various trademarks held by their respective owners. This plugin is not affiliated wtih PayPal.
+WPPlugin is an offical PayPal Partner. Various trademarks held by their respective owners.
 
 
 </form>

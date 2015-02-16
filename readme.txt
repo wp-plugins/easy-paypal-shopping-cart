@@ -53,7 +53,7 @@ Add a PayPal shopping cart to your website in just a few minutes. No Coding Requ
 > [Get Easy PayPal Shopping Cart Pro >>](https://wpplugin.org/easy-paypal-shopping-cart/)
 
 
-WPPlugin is an Official PayPal Partner. Trademarks held by their respective owners. This plugin is not affiliated wtih PayPal.
+WPPlugin is an offical PayPal Partner. Various trademarks held by their respective owners.
 
 
 == Installation ==
