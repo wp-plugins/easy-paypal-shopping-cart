@@ -22,7 +22,7 @@ Add a PayPal shopping cart to your website in just a few minutes. No Coding Requ
 
 *	The shopping cart resides on PayPal, so you don't have to worry about complex settings. Just place Add to Cart and View cart buttons and your done.
 
-*   Official PayPal Partner.
+*   Developed by an Official PayPal Partner.
 
 
 = Easy PayPal Shopping Cart Features =
