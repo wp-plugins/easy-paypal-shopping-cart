@@ -7,7 +7,7 @@ Description: A simple and easy way to integrate a PayPal shopping cart into your
 Author: Scott Paterson
 Author URI: https://wpplugin.org
 License: GPL2
-Version: 1.0
+Version: 1.1
 */
 
 /*  Copyright 2014-2015 Scott Paterson
@@ -36,10 +36,12 @@ Version: 1.0
 
 
 
+global $pagenow, $typenow;
 
 
 // add media button for editor page
 if ( in_array( $pagenow, array( 'post.php', 'page.php', 'post-new.php', 'post-edit.php' ) ) && $typenow != 'download' ) {
+
 
 add_action('media_buttons', 'wpepsc_add_my_media_button', 20);
 function wpepsc_add_my_media_button() {
@@ -161,7 +163,6 @@ wpepsc_WPeasypaypalshoppingcart::init_WPeasypaypalshoppingcart();
 
 class wpepsc_WPeasypaypalshoppingcart {
 public static function init_WPeasypaypalshoppingcart() {
-register_activation_hook(   __FILE__, array( __CLASS__, "wpepsc_activate"   ));
 register_deactivation_hook( __FILE__, array( __CLASS__, "wpepsc_deactivate" ));
 register_uninstall_hook( __FILE__, array( __CLASS__, "wpepsc_uninstall" ));
 
@@ -185,8 +186,6 @@ $wpepsc_settingsoptions = array(
 
 
 add_option("wpepsc_settingsoptions", $wpepsc_settingsoptions);
-}
-function wpepsc_activate() {
 }
 function wpepsc_deactivate() {
 delete_option("wpepsc_my_plugin_notice_shown");
@@ -240,8 +239,8 @@ function wpepsc_plugin_settings_link($links)
 {
 unset($links['edit']);
 
-$forum_link   = '<a target="_blank" href="https://wordpress.org/support/plugin/easy-paypal-shopping-cart">' . __('Support', PTP_LOC) . '</a>';
-$premium_link = '<a href="https://wpplugin.org/easy-paypal-shopping-cart/">' . __('Purchase Premium', PTP_LOC) . '</a>';
+$forum_link   = '<a target="_blank" href="https://wordpress.org/support/plugin/easy-paypal-shopping-cart">' . __('Support', 'PTP_LOC') . '</a>';
+$premium_link = '<a target="_blank" href="https://wpplugin.org/easy-paypal-shopping-cart/">' . __('Purchase Premium', 'PTP_LOC') . '</a>';
 array_push($links, $forum_link);
 array_push($links, $premium_link);
 return $links; 
@@ -283,14 +282,8 @@ $options['sizec'] = $_POST['sizec'];
 $options['opens'] = $_POST['opens'];
 $options['cancel'] = $_POST['cancel'];
 $options['return'] = $_POST['return'];
-$options['note'] = $_POST['note'];
-$options['tax_rate'] = $_POST['tax_rate'];
-$options['tax'] = $_POST['tax'];
-$options['cbt'] = $_POST['cbt'];
 $options['shopping_url'] = $_POST['shopping_url'];
-$options['upload_image'] = $_POST['upload_image'];
-$options['showprice'] = $_POST['showprice'];
-$options['showname'] = $_POST['showname'];
+
 
 
 update_option("wpepsc_settingsoptions", $options);
@@ -524,14 +517,39 @@ WPPlugin is an offical PayPal Partner. Various trademarks held by their respecti
 <center><label style="font-size:14pt;">With the Pro version you'll <br /> be able to: </label></center>
  
 <br />
+<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Add a Dropdown Price Menu<br />
+<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Add a Dropdown Options Menu<br />
+<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Add Custom Text Fields<br />
 <div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Charge Tax <br />
 <div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Charge Shipping & Handling<br />
 <div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Custom Button Image<br />
-<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Priority Support<br />
+<div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Support Plugin Development<br />
 
 <br />
 <center><a target='_blank' href="https://wpplugin.org/easy-paypal-shopping-cart/" class='button-primary' style='font-size: 17px;line-height: 28px;height: 32px;'>Upgrade Now</a></center>
 <br />
+</div>
+
+
+<br /><br />
+
+
+<div style="background-color:#333333;padding:8px;color:#eee;font-size:12pt;font-weight:bold;">
+&nbsp; Premium Support
+</div>
+
+<div style="background-color:#fff;border: 1px solid #E5E5E5;padding:8px;"><br />
+
+<center><label style="font-size:14pt;">Get Personalized Support </label></center>
+ 
+<br />
+Even with the free version you still get Premum Support.
+
+<br /><br />
+<center><a target='_blank' href="https://wpplugin.org/email-support/" class='button-primary' style='font-size: 17px;line-height: 28px;height: 32px;'>Learn More</a></center>
+<br />
+
+
 </div>
 
 <br /><br />
@@ -546,7 +564,7 @@ WPPlugin is an offical PayPal Partner. Various trademarks held by their respecti
 
 <div class="dashicons dashicons-arrow-right" style="margin-bottom: 6px;"></div> <a target="_blank" href="https://wpplugin.org/easy-paypal-shopping-cart-support/">FAQ</a> <br />
 
-<div class="dashicons dashicons-arrow-right" style="margin-bottom: 6px;"></div> <a target="_blank" href="https://wpplugin.org/easy-paypal-shopping-cart/">Shopping Cart Pro</a> <br /><br />
+<div class="dashicons dashicons-arrow-right" style="margin-bottom: 6px;"></div> <a target="_blank" href="https://wpplugin.org/easy-paypal-shopping-cart/">Easy PayPal Shopping Cart Pro</a> <br /><br />
 
 </div>
 
@@ -559,6 +577,8 @@ WPPlugin is an offical PayPal Partner. Various trademarks held by their respecti
 <div style="background-color:#fff;border: 1px solid #E5E5E5;"><br />
 
 <center><a target='_blank' href="https://wordpress.org/plugins/easy-paypal-shopping-cart/" class='button-primary' style='font-size: 17px;line-height: 28px;height: 32px;'>Leave a Review</a></center>
+<br />
+<center><a target='_blank' href="https://wpplugin.org/donate" class='button-primary' style='font-size: 17px;line-height: 28px;height: 32px;'>Donate</a></center>
 <br />
 
 </div>
@@ -589,7 +609,7 @@ add_shortcode('wpepsc', 'wpepsc_options');
 function wpepsc_options($atts) {
 
 // get shortcode user fields
-$atts = shortcode_atts(array('name' => 'Example Name','price' => '0.00','discount_rate' => '','discount_amount' => '','weight' => '','shipping' => '','item_id' => '','size' => '','align' => ''), $atts);
+$atts = shortcode_atts(array('name' => 'Example Name','price' => '0.00','size' => '','align' => ''), $atts);
 
 // get settings page values
 $options = get_option('wpepsc_settingsoptions');
@@ -760,18 +780,11 @@ if ($value['size'] == "4") { $img = $value['upload_imagec']; }
 if ($value['opens'] == "1") { $target = ""; }
 if ($value['opens'] == "2") { $target = "_blank"; }
 
-// note action
-if ($value['note'] == "1") { $note = "0"; }
-if ($value['note'] == "2") { $note = "1"; }
-
-// weight unit
-if ($value['weight_unit'] == "1") { $weight_unit = "lbs"; }
-if ($value['weight_unit'] == "2") { $weight_unit = "kgs"; }
-
 // alignment
 if ($atts['align'] == "left") { $alignment = "style='float: left;'"; }
 if ($atts['align'] == "right") { $alignment = "style='float: right;'"; }
-if ($atts['align'] == "center") { $alignment = "style='margin-left: auto;margin-right: auto;width:107px'"; }
+if ($atts['align'] == "center") { $alignment = "style='margin-left: auto;margin-right: auto;width:120px'"; }
+if (empty($atts['align'])) { $alignment = ""; }
 
 $output = "";
 $output .= "<div $alignment>";
@@ -988,7 +1001,7 @@ if ($value['opens'] == "2") { $target = "_blank"; }
 if ($atts['align'] == "left") { $alignment = "style='float: left;'"; }
 if ($atts['align'] == "right") { $alignment = "style='float: right;'"; }
 if ($atts['align'] == "center") { $alignment = "style='margin-left: auto;margin-right: auto;width:107px'"; }
-
+if (empty($atts['align'])) { $alignment = ""; }
 
 $output = "";
 $output .= "<div $alignment>";

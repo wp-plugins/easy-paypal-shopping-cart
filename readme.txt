@@ -5,7 +5,7 @@ Tags: shopping cart, ecommerce, paypal, button, buy now, shortcode, buy now butt
 Author URI: https://wpplugin.org
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,7 +47,6 @@ Add a PayPal shopping cart to your website in just a few minutes. No Coding Requ
 > Apply a Fixed Discount per item <br />
 > Each Button Can Have Its Own Size<br />
 > Add a Custom Button Image<br />
-> Priority Support<br />
 >
 >
 > [Get Easy PayPal Shopping Cart Pro >>](https://wpplugin.org/easy-paypal-shopping-cart/)
@@ -81,10 +80,16 @@ Yes, there is no limit to the amount you can put on one post / page, or your ent
 
 == Changelog ==
 
+= 1.1 =
+* Small bug fixes
+
 = 1.0.0 =
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.1 =
+Small bug fixes
 
 = 1.0.0 =
 Initial release
