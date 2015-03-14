@@ -7,7 +7,7 @@ Description: A simple and easy way to integrate a PayPal shopping cart into your
 Author: Scott Paterson
 Author URI: https://wpplugin.org
 License: GPL2
-Version: 1.1
+Version: 1.1.2
 */
 
 /*  Copyright 2014-2015 Scott Paterson
@@ -1015,7 +1015,7 @@ $output .= "<input type='hidden' name='shopping_url' value='". $value['shopping_
 $output .= "<input type='hidden' name='return' value='". $value['return'] ."' />";
 $output .= "<input type='hidden' name='cancel_return' value='". $value['cancel'] ."' />";
 $output .= "<input class='paypalbuttonimage' type='image' src='$imga' border='0' name='submit' alt='Make your payments with PayPal. It is free, secure, effective.' style='border: none;'>";
-$output .= "<img alt='' border='0' src='https://www.paypal.com/$language/i/scr/pixel.gif' width='1' height='1'>";
+$output .= "<img alt='' border='0' style='border:none;display:none;' src='https://www.paypal.com/$language/i/scr/pixel.gif' width='1' height='1'>";
 $output .= "</form></div>";
 
 return $output;
