@@ -1,7 +1,7 @@
 === Easy PayPal Shopping Cart ===
 Contributors: scottpaterson,wp-plugin
 Donate link: https://wpplugin.org/donate/
-Tags: shopping cart, ecommerce, paypal, button, buy now, shortcode, buy now button, paypal button, paypal buy now button, paypal plugin, paypal plugin for wordpress, easy
+Tags: PayPal payment, PayPal, button, payment, online payments, Stripe, Super Stripe, Stripe checkout, pay now, paypal plugin for wordpress, button, paypal button, payment form, pay online, paypal buy now, ecommerce, paypal plugin, shortcode, online, payments, payments for wordpress, paypal for wordpress, paypal donation, paypal transfer, payment processing, paypal widget, wp paypal, purchase button, money, invoice, invoicing, payment collect, secure, process credit cards, paypal integration, gateway, stripe, authorize, shopping cart, cart, shopping, shop
 Author URI: https://wpplugin.org
 Requires at least: 3.0
 Tested up to: 4.1
@@ -9,37 +9,39 @@ Stable tag: 1.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add a PayPal shopping cart to your website in just a few minutes. No Coding Required. Official PayPal Partner.
+Add a PayPal Shopping Cart to your website and start selling today. No Coding Required. Official PayPal Partner.
 
 == Description ==
 = Overview =
 
-*   The **Easy PayPal Shopping Cart** WordPress Plugin makes it easy to turn your WordPress site into an eCommmerce website.
+This plugin will allow you to sell products or services on your website using an Add to Cart Button and View Cart Button. The Shopping Cart itself is hosted on PayPal.
 
-*	Simply install the plugin, enter your PayPal business information on the settings page, and use the automatic button inserter to place Add to Cart or View Cart buttons on your site.
+You can place a the Cart button anywhere on your site where you want to sell something. Your customers can use their PayPal account to pay for your products or services or they can pay by Debit or Credit Card.
 
-*   Easy PayPal Button works with any WordPress theme.
+What makes this plugin powerful is its simplicity. You don't have to spend days setting up an eCommerce Solution. Just install the plugin and in just a few minutes customers from around the world can start buying products or services from your website using PayPal.
 
-*	The shopping cart resides on PayPal, so you don't have to worry about complex settings. Just place Add to Cart and View cart buttons and your done.
+On the settings page of the plugin you will find clear instructions on how to sign up for a PayPal account if you don't have one already. The plugin also provides instructions for how to setup a PayPal Sandbox account - which will allow you to setup a fake PayPal buyer and seller account (with fake money) so you can test everything before you start selling to the public.
 
-*   Developed by an Official PayPal Partner.
+If you have any problems, questions, or issues please create a support request and we will get back to you quickly.
+
+This PayPal plugin works with any WordPress theme and it was developed by an Official PayPal Partner.
 
 
 = Easy PayPal Shopping Cart Features =
 
+*	Button Inserter - Just enter your items name, price, etc. and it make the Cart button for you
 *   Works with any WordPress Theme
-*	Each button has its own product name and price
 *	Built in support for 18 languages
 *	Built in support 25 currencies
 *	PayPal testing through SandBox
-*	Choose 2 different button types.
+*	Choose 2 different PayPal button styles
 *	Choose how the PayPal window opens
 *	Choose your shop url
 *	Choose cancel payment url
 *	Choose succesful payment url
 
 > #### Easy PayPal Shopping Cart Pro
-> Easy PayPal Shopping Cart Pro comes with the following features.<br />
+> We offer a Pro version of this plugin for business owners who need more features.<br />
 >
 > Charge Fixed Tax <br />
 > Charge Tax Rate <br />
@@ -49,10 +51,10 @@ Add a PayPal shopping cart to your website in just a few minutes. No Coding Requ
 > Add a Custom Button Image<br />
 >
 >
-> [Get Easy PayPal Shopping Cart Pro >>](https://wpplugin.org/easy-paypal-shopping-cart/)
+> [You can learn more about the Pro version here >>](https://wpplugin.org/easy-paypal-shopping-cart/)
 
 
-WPPlugin is an offical PayPal Partner. Various trademarks held by their respective owners.
+WP Plugin is an offical PayPal Partner. Various trademarks held by their respective owners.
 
 
 == Installation ==
