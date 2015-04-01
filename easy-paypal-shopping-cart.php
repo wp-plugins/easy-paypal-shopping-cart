@@ -7,7 +7,7 @@ Description: A simple and easy way to integrate a PayPal shopping cart into your
 Author: Scott Paterson
 Author URI: https://wpplugin.org
 License: GPL2
-Version: 1.1.3
+Version: 1.1.4
 */
 
 /*  Copyright 2014-2015 Scott Paterson
@@ -484,7 +484,7 @@ echo "If the customer goes to PayPal and successfully pays, where are they redir
 <br /><br /><br />
 
 
-WPPlugin is an offical PayPal Partner. Various trademarks held by their respective owners.
+WP Plugin is an offical PayPal Partner. Various trademarks held by their respective owners.
 
 
 </form>
