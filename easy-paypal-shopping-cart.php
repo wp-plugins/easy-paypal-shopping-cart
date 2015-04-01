@@ -4,6 +4,7 @@
 Plugin Name: Easy PayPal Shopping Cart
 Plugin URI: https://wpplugin.org/easy-paypal-shopping-cart/
 Description: A simple and easy way to integrate a PayPal shopping cart into your WordPress website.
+Tags: PayPal payment, PayPal, button, payment, online payments, Stripe, Super Stripe, Stripe checkout, pay now, paypal plugin for wordpress, button, paypal button, payment form, pay online, paypal buy now, ecommerce, paypal plugin, shortcode, online, payments, payments for wordpress, paypal for wordpress, paypal donation, paypal transfer, payment processing, paypal widget, wp paypal, purchase button, money, invoice, invoicing, payment collect, secure, process credit cards, paypal integration, gateway, stripe, authorize, shopping cart, cart, shopping, shop
 Author: Scott Paterson
 Author URI: https://wpplugin.org
 License: GPL2
