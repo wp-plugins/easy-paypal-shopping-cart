@@ -24,7 +24,9 @@ On the settings page of the plugin you will find clear instructions on how to si
 
 If you have any problems, questions, or issues please create a support request and we will get back to you quickly.
 
-This PayPal plugin works with any WordPress theme and it was developed by an Official PayPal Partner.
+This PayPal plugin works with any WordPress theme.
+
+WP Plugin is an offical PayPal Partner based in Boulder, Colorado. You can visit WP Plugins website as [wpplugin.org](https://wpplugin.org). Various trademarks held by their respective owners.
 
 
 = Easy PayPal Shopping Cart Features =
@@ -51,7 +53,7 @@ This PayPal plugin works with any WordPress theme and it was developed by an Off
 > Add a Custom Button Image<br />
 >
 >
-> [You can learn more about the Pro version here >>](https://wpplugin.org/easy-paypal-shopping-cart/)
+> [You can learn more about the Pro version here.](https://wpplugin.org/easy-paypal-shopping-cart/)
 
 
 WP Plugin is an offical PayPal Partner. Various trademarks held by their respective owners.
