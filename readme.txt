@@ -26,7 +26,7 @@ If you have any problems, questions, or issues please create a support request a
 
 This PayPal plugin works with any WordPress theme.
 
-WP Plugin is an offical PayPal Partner based in Boulder, Colorado. You can visit WP Plugins website as [wpplugin.org](https://wpplugin.org). Various trademarks held by their respective owners.
+WP Plugin is an offical PayPal Partner based in Boulder, Colorado. You can visit WP Plugins website at [wpplugin.org](https://wpplugin.org). Various trademarks held by their respective owners.
 
 
 = Easy PayPal Shopping Cart Features =
