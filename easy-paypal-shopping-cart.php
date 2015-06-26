@@ -8,7 +8,7 @@ Tags: PayPal payment, PayPal, button, payment, online payments, Stripe, Super St
 Author: Scott Paterson
 Author URI: https://wpplugin.org
 License: GPL2
-Version: 1.1.4
+Version: 1.1.5
 */
 
 /*  Copyright 2014-2015 Scott Paterson
@@ -485,7 +485,7 @@ echo "If the customer goes to PayPal and successfully pays, where are they redir
 <br /><br /><br />
 
 
-WP Plugin is an offical PayPal Partner. Various trademarks held by their respective owners.
+WPPlugin is an offical PayPal Partner. Various trademarks held by their respective owners.
 
 
 </form>
@@ -527,30 +527,8 @@ WP Plugin is an offical PayPal Partner. Various trademarks held by their respect
 <div class="dashicons dashicons-yes" style="margin-bottom: 6px;"></div> Support Plugin Development<br />
 
 <br />
-<center><a target='_blank' href="https://wpplugin.org/easy-paypal-shopping-cart/" class='button-primary' style='font-size: 17px;line-height: 28px;height: 32px;'>Upgrade Now</a></center>
+<center><a target='_blank' href="https://wpplugin.org/easy-paypal-shopping-cart/" class='button-primary' style='font-size: 17px;line-height: 28px;height: 32px;'>Learn More</a></center>
 <br />
-</div>
-
-
-<br /><br />
-
-
-<div style="background-color:#333333;padding:8px;color:#eee;font-size:12pt;font-weight:bold;">
-&nbsp; Premium Support
-</div>
-
-<div style="background-color:#fff;border: 1px solid #E5E5E5;padding:8px;"><br />
-
-<center><label style="font-size:14pt;">Get Personalized Support </label></center>
- 
-<br />
-Even with the free version you still get Premum Support.
-
-<br /><br />
-<center><a target='_blank' href="https://wpplugin.org/email-support/" class='button-primary' style='font-size: 17px;line-height: 28px;height: 32px;'>Learn More</a></center>
-<br />
-
-
 </div>
 
 <br /><br />
@@ -563,7 +541,7 @@ Even with the free version you still get Premum Support.
 
 <div class="dashicons dashicons-arrow-right" style="margin-bottom: 6px;"></div> <a target="_blank" href="https://wordpress.org/support/plugin/easy-paypal-shopping-cart">Support Forum</a> <br />
 
-<div class="dashicons dashicons-arrow-right" style="margin-bottom: 6px;"></div> <a target="_blank" href="https://wpplugin.org/easy-paypal-shopping-cart-support/">FAQ</a> <br />
+<div class="dashicons dashicons-arrow-right" style="margin-bottom: 6px;"></div> <a target="_blank" href="https://wpplugin.org/documentation">FAQ</a> <br />
 
 <div class="dashicons dashicons-arrow-right" style="margin-bottom: 6px;"></div> <a target="_blank" href="https://wpplugin.org/easy-paypal-shopping-cart/">Easy PayPal Shopping Cart Pro</a> <br /><br />
 

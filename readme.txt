@@ -4,8 +4,8 @@ Donate link: https://wpplugin.org/donate/
 Tags: PayPal payment, PayPal, button, payment, online payments, Stripe, Super Stripe, Stripe checkout, pay now, paypal plugin for wordpress, button, paypal button, payment form, pay online, paypal buy now, ecommerce, paypal plugin, shortcode, online, payments, payments for wordpress, paypal for wordpress, paypal donation, paypal transfer, payment processing, paypal widget, wp paypal, purchase button, money, invoice, invoicing, payment collect, secure, process credit cards, paypal integration, gateway, stripe, authorize, shopping cart, cart, shopping, shop
 Author URI: https://wpplugin.org
 Requires at least: 3.0
-Tested up to: 4.2
-Stable tag: 1.1.4
+Tested up to: 4.2.2
+Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -84,6 +84,9 @@ Yes, there is no limit to the amount you can put on one post / page, or your ent
 
 == Changelog ==
 
+= 1.1.5 =
+* Small fix - updated links that were broken
+
 = 1.1.4 =
 * Small fix - spelling
 
@@ -101,8 +104,11 @@ Yes, there is no limit to the amount you can put on one post / page, or your ent
 
 == Upgrade Notice ==
 
+= 1.1.5 =
+Small fix - updated links that were broken
+
 = 1.1.4 =
-* Small fix - spelling
+Small fix - spelling
 
 = 1.1.3 =
 Bug fix
