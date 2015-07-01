@@ -8,7 +8,7 @@ Tags: PayPal payment, PayPal, button, payment, online payments, Stripe, Super St
 Author: Scott Paterson
 Author URI: https://wpplugin.org
 License: GPL2
-Version: 1.1.5
+Version: 1.1.6
 */
 
 /*  Copyright 2014-2015 Scott Paterson
@@ -874,7 +874,7 @@ $imagecb = "https://www.paypalobjects.com/fr_CA/i/btn/btn_viewcart_LG.gif";
 if ($value['language'] == "5") {
 $language = "de_DE";
 $imageca = "https://www.paypalobjects.com/de_DE/DE/i/btn/btn_viewcart_SM.gif";
-$imageb = "https://www.paypalobjects.com/de_DE/DE/i/btn/btn_viewcart_LG.gif";
+$imagecb = "https://www.paypalobjects.com/de_DE/DE/i/btn/btn_viewcart_LG.gif";
 } //German
 
 if ($value['language'] == "6") {
